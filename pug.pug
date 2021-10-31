@@ -1,0 +1,23 @@
+// abbreviation - a
+a(href="$MYLINK$")$END$
+
+// abbreviation - img
+img(src="$IMAGEPATH$" alt="$IMAGEDESCRIPTION$")$END$
+
+// abbreviation - svg
+svg
+    use(xlink:href="assets/img/sprite.svg#$MYSVGNAME$")$END$
+
+// abbreviation - section
+//begin $SECTIONCLASS$
+.$SECTIONCLASS$$END$
+//end   $SECTIONCLASS$
+
+// abbreviation - phone
+a(href="tel:+$NUMBERWITHOUTSPACE$")$NUMBERWITHSPACE$
+
+// abbreviation - mail
+a(href="mailto:$MYEMAIL$") $MYEMAIL$
+
+// abbreviation - address
+a(href="$ADDRESSLINK$" target="_blank" rel="nofollow noopener noreferrer") $END$
