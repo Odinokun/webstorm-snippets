@@ -2,6 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/webstorm,phpstorm,sublimetext,windows,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=webstorm,phpstorm,sublimetext,windows,macos
 
+.idea
+
 ### macOS ###
 # General
 .DS_Store
