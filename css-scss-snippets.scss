@@ -21,3 +21,8 @@ margin: auto;
 // abbreviation - hov
 &:hover {$END$
 }
+
+// abbreviation - //
+/* begin $MYCLASS$ */
+.$MYCLASS {$END}
+/* end   $MYCLASS$ */
