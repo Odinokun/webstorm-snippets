@@ -1,0 +1,3 @@
+// abbreviation - imr
+import React from "react";
+$END$
